@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "crystal-mcp": {
+      "command": "npm",
+      "args": ["run", "mcp:dev"],
+      "cwd": ".",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}
